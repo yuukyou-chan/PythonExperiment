@@ -8,5 +8,11 @@ def sum():
     return num, s
 
 
-sum = sum()
-print("你输入的数字是 %s , 它的各位数和是 %d" % (sum[0], sum[1]))
+# sum = sum()
+# print("你输入的数字是 %s , 它的各位数和是 %d" % (sum[0], sum[1]))
+
+# 方法二
+num = input("请输入一个数字")
+# a = sum(map(int, num))
+b = sum([1, 2, 3])
+print(b)

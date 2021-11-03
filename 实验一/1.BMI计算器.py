@@ -7,3 +7,5 @@ def BMI():
 
 
 print("你的BMI指数是", BMI())
+
+

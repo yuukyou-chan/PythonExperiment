@@ -7,4 +7,3 @@ def area(r):
 r = float(input("请输入圆的半径"))
 s = area(r)
 print("r为 %s，的圆的面积是 %s，r的内存地址为 %s"%(r, s, id(r)))
-
